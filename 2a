@@ -1,0 +1,57 @@
+import 'package:flutter/material.dart'; void main() {
+
+runApp(
+
+MaterialApp( home: Scaffold( body: Center(
+
+child: Text("Hello Flutter"),
+
+),
+
+),
+
+)
+
+);
+
+}
+
+Image widget
+
+import 'package:flutter/material.dart'; void main() {
+
+runApp(MaterialApp( home: Scaffold( body: Center(
+
+child: Image.network("image link address copy from google "),
+
+),
+
+),
+
+));
+
+}
+
+Container widget
+
+import 'package:flutter/material.dart'; void main() {
+
+runApp( MaterialApp(
+
+home: Scaffold( body: Center(
+
+child: Container( color: Colors.amber, width: 200,
+
+height: 100,
+
+child: Center(child: Text("Container Box")),
+
+),
+
+),
+
+),
+
+));
+
+}
